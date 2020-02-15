@@ -1,0 +1,27 @@
+Assert (What happens when it fails?):
+    feed it a bullion condition and if its false it quits the program
+    check -> fails -> ends
+    #include <cassert>
+
+The invarient of a class:
+    The rules that dictate how the member variables of a class represent a value
+    (such as a bag of items) 
+
+value semantics:
+    The value semantics of a class determines how values are copied from one
+    object to another. In C++, the value semantics consists of two operations: the
+    assignment operator and the copy constructor.
+
+constant member function:
+    may examine the status of its object, but it is forbidden from
+    changing the object.
+
+const reference parameters:
+    the actual argument can't be changed
+    used to be faster
+    any use of the parameter within the
+    body of the function will access the argument from the calling
+    program. Changes made to the formal parameter in the body
+    of the function will alter the argument.
+
+
