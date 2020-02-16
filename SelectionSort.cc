@@ -14,7 +14,14 @@ int indexOfSmallest(const int data[], int startIndex, int endIndex){
         if (data[i] < min){
             min = data[i];
             minIndex = i;
-        }
-    }
+            }
+     }
     return minIndex;
+}
+
+void swap(int index, int minIndex){
+    int temp = minIndex;
+    minIndex = index;
+    index = tmp;
+    
 }
