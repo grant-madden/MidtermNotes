@@ -1,6 +1,7 @@
 void bubblesort(int arr[], int length){
   // Bubble largest toward the right
-  for (int i = legnth - 1; j < 1; j++)
+  for (int i = length - 1; i  > 0; i--)
+    for (int j =0; j < 1; j++)
     if (arr[j] > arr[j+1])
       {
         // swap numbers
